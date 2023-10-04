@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 
-public class CameraFolow : MonoBehaviour
+public class CameraFollow : MonoBehaviour
 {
     public Transform alvo;
     public Vector3 offset;
