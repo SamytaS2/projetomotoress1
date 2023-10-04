@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class C : MonoBehaviour
+public class CameraFolow : MonoBehaviour
 {
     public Transform alvo;
     public Vector3 offset;
@@ -16,6 +17,6 @@ public class C : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position = alvo.position - offset;
     }
 }
