@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7871b6fe-c0e2-4a69-9405-589c6d7ef7f4" name="Changes" comment="" />
+    <list default="true" id="7871b6fe-c0e2-4a69-9405-589c6d7ef7f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fase 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Fase 1.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696423446434</updated>
       <workItem from="1696423460719" duration="2202000" />
-      <workItem from="1696948668605" duration="336000" />
+      <workItem from="1696948668605" duration="765000" />
     </task>
     <servers />
   </component>
