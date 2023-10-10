@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Chão")
+        if (!noChao && collision.gameObject.tag == "Chão")
         {
             noChao = true;
         }
@@ -37,9 +37,10 @@ public class Player : MonoBehaviour
         Vector3 direcao = new Vector3(h, 0, v);
         rb.AddForce(direcao * velocidade * Time.deltaTime, ForceMode.Impulse);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && noChao)
         {
             rb.AddForce(Vector3.up * forcaPulo, ForceMode.Impulse);
+            noChao = false;
         }
         
         //Reseta a cena, caso o jogador caia da plataforma
