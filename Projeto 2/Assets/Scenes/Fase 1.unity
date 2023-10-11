@@ -431,8 +431,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e48d320bd56aeb45a931e20e2c3b0d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
-  forcaPulo: 7
+  velocidade: 15
+  forcaPulo: 10
   noChao: 0
 --- !u!54 &637432993
 Rigidbody:
